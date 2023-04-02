@@ -2,17 +2,32 @@
   {
     "title": "Metodologias",
     "itens": [
-      { "name": "Agile", "img": "../../../public/images/skills/Agile.png" },
-      { "name": "Scrum", "img": "../../../public/images/skills/Scrum.png" },
-      { "name": "Kanban", "img": "../../../public/images/skills/Kanban.png" }
+      {
+        "name": "Agile",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Agile.png"
+      },
+      {
+        "name": "Scrum",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Scrum.png"
+      },
+      {
+        "name": "Kanban",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Kanban.png"
+      }
     ]
   },
 
   {
     "title": "SCM",
     "itens": [
-      { "name": "Git", "img": "../../../public/images/skills/Git.png" },
-      { "name": "Docker", "img": "../../../public/images/skills/Docker.png" }
+      {
+        "name": "Git",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Git.png"
+      },
+      {
+        "name": "Docker",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Docker.png"
+      }
     ]
   },
 
@@ -21,11 +36,11 @@
     "itens": [
       {
         "name": "Wordpress",
-        "img": "../../../public/images/skills/Wordpress.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Wordpress.png"
       },
       {
         "name": "E-commerce",
-        "img": "../../../public/images/skills/Ecommerce.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Ecommerce.png"
       }
     ]
   },
@@ -33,50 +48,62 @@
   {
     "title": "Linguagens",
     "itens": [
-      { "name": "JavaScript", "img": "../../../public/images/skills/Js.png" },
-      { "name": "Python", "img": "../../../public/images/skills/Python.png" },
-      { "name": "PHP", "img": "../../../public/images/skills/Php.png" },
+      {
+        "name": "JavaScript",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      },
       {
         "name": "Typescript",
-        "img": "../../../public/images/skills/Typescript.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Typescript.png"
       },
-      { "name": "NodeJS", "img": "../../../public/images/skills/NodeJS.png" }
+      {
+        "name": "NodeJS",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      }
     ]
   },
 
   {
     "title": "FrameWorks",
     "itens": [
-      { "name": "React", "img": "../../../public/images/skills/React.png" },
-      { "name": "Next", "img": "../../../public/images/skills/Next.png" },
-      { "name": "Laravel", "img": "../../../public/images/skills/Laravel.png" },
+      {
+        "name": "React",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      },
       {
         "name": "ExpressJS",
-        "img": "../../../public/images/skills/ExpressJS.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/ExpressJS.png"
       },
-      { "name": "NestJS", "img": "../../../public/images/skills/NestJS.png" }
+      {
+        "name": "NestJS",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      }
     ]
   },
 
   {
     "title": "Ui/Ux",
     "itens": [
-      { "name": "Figma", "img": "../../../public/images/skills/Figma.png" },
+      {
+        "name": "Figma",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      },
       {
         "name": "Photoshop",
-        "img": "../../../public/images/skills/Photoshop.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Photoshop.png"
       },
       {
         "name": "Illustrator",
-        "img": "../../../public/images/skills/Illustrator.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Illustrator.png"
       },
       {
         "name": "Material-UI",
-        "img": "../../../public/images/skills/Material.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Material.png"
       },
       {
         "name": "TailwindCss",
-        "img": "../../../public/images/skills/Tailwind.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Tailwind.png"
       }
     ]
   },
@@ -84,20 +111,25 @@
   {
     "title": "Diversos",
     "itens": [
-      { "name": "Webpack", "img": "../../../public/images/skills/Webpack.png" },
-      { "name": "Babel", "img": "../../../public/images/skills/Babel.png" },
+      {
+        "name": "Webpack",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      },
       {
         "name": "MirageJs",
-        "img": "../../../public/images/skills/MirageJs.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/MirageJs.png"
       },
-      { "name": "SEO", "img": "../../../public/images/skills/Seo.png" },
+      {
+        "name": "SEO",
+        "img": "https://hcportfolio.vercel.app/assets/images/skills.png"
+      },
       {
         "name": "Aplicação LGPD",
-        "img": "../../../public/images/skills/Lgpd.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Lgpd.png"
       },
       {
         "name": "Insomnia",
-        "img": "../../../public/images/skills/Insomnia.png"
+        "img": "https://hcportfolio.vercel.app/assets/images/skills/Insomnia.png"
       }
     ]
   }
