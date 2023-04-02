@@ -7,7 +7,6 @@ export const Container = styled.div`
   margin-top: 4rem;
   gap: 2rem;
 
-  width: 100vw;
   height: auto;
 
   > h2 {
@@ -45,12 +44,13 @@ export const Container = styled.div`
 
   .my-card {
     background-color: var(--blue-900);
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid var(--blue-400);
     padding: 1rem;
   }
   .my-title {
     color: var(--white);
     font-family: "Roboto";
+
     @media (max-width: 480px) {
       text-align: center;
       padding: 0;

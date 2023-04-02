@@ -102,7 +102,7 @@ export const Container = styled.aside`
   @media (max-width: 480px) {
     position: relative;
     width: 100vw;
-    height: calc(100vh - 5px);
+    height: calc(90vh - 5px);
 
     background-size: cover;
 

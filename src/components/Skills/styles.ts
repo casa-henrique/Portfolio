@@ -47,7 +47,7 @@ export const Table = styled.div`
 
     background-color: var(--blue-900);
     border-radius: 0.5rem;
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid var(--blue-400);
 
     > tr {
       display: grid;

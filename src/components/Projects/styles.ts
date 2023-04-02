@@ -40,7 +40,7 @@ export const Container = styled.section`
     li {
       display: flex;
       flex-direction: column;
-      border-bottom: 2px solid var(--white);
+      border-bottom: 2px solid var(--blue-400);
 
       align-items: center;
       justify-content: space-between;
