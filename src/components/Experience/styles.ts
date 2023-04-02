@@ -7,6 +7,9 @@ export const Container = styled.div`
   margin-top: 4rem;
   gap: 2rem;
 
+  width: 100vw;
+  height: auto;
+
   > h2 {
     display: flex;
     flex-direction: column;
@@ -38,5 +41,42 @@ export const Container = styled.div`
   .dateRight {
     margin-right: 2rem;
     font-family: "Inter";
+  }
+
+  .my-card {
+    background-color: var(--blue-900);
+    border-bottom: 2px solid var(--white);
+    padding: 1rem;
+  }
+  .my-title {
+    color: var(--white);
+    font-family: "Roboto";
+    @media (max-width: 480px) {
+      text-align: center;
+      padding: 0;
+      text-overflow: ellipsis;
+    }
+  }
+  .my-card-title {
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 1.3rem;
+  }
+  .my-card-subtitle {
+    color: var(--white);
+    font-family: "roboto";
+  }
+  a {
+    cursor: default;
+    text-decoration: none;
+  }
+  .my-card-text {
+    > p {
+      font-family: "roboto";
+      color: var(--white);
+    }
+  }
+  .my-controls {
   }
 `;
