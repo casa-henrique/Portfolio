@@ -98,4 +98,16 @@ export const Container = styled.section`
       }
     }
   }
+
+  @media (max-width: 1080px) {
+    ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 720px) {
+    ul {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 `;

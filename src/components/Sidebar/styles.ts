@@ -98,4 +98,17 @@ export const Container = styled.aside`
   #nodeSvg {
     color: #81cd39;
   }
+
+  @media (max-width: 480px) {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 5px);
+
+    background-size: cover;
+
+    .profile > h2 {
+      text-align: center;
+      width: 70%;
+    }
+  }
 `;

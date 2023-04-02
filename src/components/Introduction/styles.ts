@@ -73,4 +73,24 @@ export const Container = styled.main`
       }
     }
   }
+
+  @media (max-width: 480px) {
+    align-items: center;
+    > h2 {
+      text-align: center;
+    }
+    > p {
+      text-align: center;
+      margin-left: 0;
+      width: 90%;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+
+      > div {
+        width: 90%;
+      }
+    }
+  }
 `;

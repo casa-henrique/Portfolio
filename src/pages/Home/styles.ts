@@ -16,4 +16,11 @@ export const Container = styled.div`
   width: calc(100vw - 17vw);
 
   overflow: auto;
+
+  @media (max-width: 480px) {
+    position: relative;
+    border-top: 5px solid var(--blue-400);
+    border-left: none;
+    width: 100vw;
+  }
 `;
