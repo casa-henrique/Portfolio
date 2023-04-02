@@ -2,7 +2,7 @@
   {
     "title": "Metodologias",
     "itens": [
-      { "name": "Agile", "img": "../../assets/images/skills/Agile.png" },
+      { "name": "Agile", "img": "/skills/Agile.png" },
       { "name": "Scrum", "img": "../../assets/images/skills/Scrum.png" },
       { "name": "Kanban", "img": "../../assets/images/skills/Kanban.png" }
     ]
