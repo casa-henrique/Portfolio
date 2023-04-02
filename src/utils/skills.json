@@ -3,16 +3,16 @@
     "title": "Metodologias",
     "itens": [
       { "name": "Agile", "img": "/skills/Agile.png" },
-      { "name": "Scrum", "img": "../../assets/images/skills/Scrum.png" },
-      { "name": "Kanban", "img": "../../assets/images/skills/Kanban.png" }
+      { "name": "Scrum", "img": "/skills/Scrum.png" },
+      { "name": "Kanban", "img": "/skills/Kanban.png" }
     ]
   },
 
   {
     "title": "SCM",
     "itens": [
-      { "name": "Git", "img": "../../assets/images/skills/Git.png" },
-      { "name": "Docker", "img": "../../assets/images/skills/Docker.png" }
+      { "name": "Git", "img": "/skills/Git.png" },
+      { "name": "Docker", "img": "/skills/Docker.png" }
     ]
   },
 
@@ -21,11 +21,11 @@
     "itens": [
       {
         "name": "Wordpress",
-        "img": "../../assets/images/skills/Wordpress.png"
+        "img": "/skills/Wordpress.png"
       },
       {
         "name": "E-commerce",
-        "img": "../../assets/images/skills/Ecommerce.png"
+        "img": "/skills/Ecommerce.png"
       }
     ]
   },
@@ -33,50 +33,50 @@
   {
     "title": "Linguagens",
     "itens": [
-      { "name": "JavaScript", "img": "../../assets/images/skills/Js.png" },
-      { "name": "Python", "img": "../../assets/images/skills/Python.png" },
-      { "name": "PHP", "img": "../../assets/images/skills/Php.png" },
+      { "name": "JavaScript", "img": "/skills/Js.png" },
+      { "name": "Python", "img": "/skills/Python.png" },
+      { "name": "PHP", "img": "/skills/Php.png" },
       {
         "name": "Typescript",
-        "img": "../../assets/images/skills/Typescript.png"
+        "img": "/skills/Typescript.png"
       },
-      { "name": "NodeJS", "img": "../../assets/images/skills/NodeJS.png" }
+      { "name": "NodeJS", "img": "/skills/NodeJS.png" }
     ]
   },
 
   {
     "title": "FrameWorks",
     "itens": [
-      { "name": "React", "img": "../../assets/images/skills/React.png" },
-      { "name": "Next", "img": "../../assets/images/skills/Next.png" },
-      { "name": "Laravel", "img": "../../assets/images/skills/Laravel.png" },
+      { "name": "React", "img": "/skills/React.png" },
+      { "name": "Next", "img": "/skills/Next.png" },
+      { "name": "Laravel", "img": "/skills/Laravel.png" },
       {
         "name": "ExpressJS",
-        "img": "../../assets/images/skills/ExpressJS.png"
+        "img": "/skills/ExpressJS.png"
       },
-      { "name": "NestJS", "img": "../../assets/images/skills/NestJS.png" }
+      { "name": "NestJS", "img": "/skills/NestJS.png" }
     ]
   },
 
   {
     "title": "Ui/Ux",
     "itens": [
-      { "name": "Figma", "img": "../../assets/images/skills/Figma.png" },
+      { "name": "Figma", "img": "/skills/Figma.png" },
       {
         "name": "Photoshop",
-        "img": "../../assets/images/skills/Photoshop.png"
+        "img": "/skills/Photoshop.png"
       },
       {
         "name": "Illustrator",
-        "img": "../../assets/images/skills/Illustrator.png"
+        "img": "/skills/Illustrator.png"
       },
       {
         "name": "Material-UI",
-        "img": "../../assets/images/skills/Material.png"
+        "img": "/skills/Material.png"
       },
       {
         "name": "TailwindCss",
-        "img": "../../assets/images/skills/Tailwind.png"
+        "img": "/skills/Tailwind.png"
       }
     ]
   },
@@ -84,20 +84,20 @@
   {
     "title": "Diversos",
     "itens": [
-      { "name": "Webpack", "img": "../../assets/images/skills/Webpack.png" },
-      { "name": "Babel", "img": "../../assets/images/skills/Babel.png" },
+      { "name": "Webpack", "img": "/skills/Webpack.png" },
+      { "name": "Babel", "img": "/skills/Babel.png" },
       {
         "name": "MirageJs",
-        "img": "../../assets/images/skills/MirageJs.png"
+        "img": "/skills/MirageJs.png"
       },
-      { "name": "SEO", "img": "../../assets/images/skills/Seo.png" },
+      { "name": "SEO", "img": "/skills/Seo.png" },
       {
         "name": "Aplicação LGPD",
-        "img": "../../assets/images/skills/Lgpd.png"
+        "img": "/skills/Lgpd.png"
       },
       {
         "name": "Insomnia",
-        "img": "../../assets/images/skills/Insomnia.png"
+        "img": "/skills/Insomnia.png"
       }
     ]
   }
