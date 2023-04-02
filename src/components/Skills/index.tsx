@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import teste from "../../../public/images/skills/Agile.png";
+import teste from "../../../public/skills/Agile.png";
 import LanguageContext from "../../hooks/languageContext";
 import ability from "../../utils/skills.json";
 import { Container, Table } from "./styles";
