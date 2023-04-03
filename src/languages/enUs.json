@@ -31,5 +31,7 @@
   "skillsTitleSpan": "See the skills I've developed",
   "projectsTitle": "Projects",
   "projectsTitleSpan": "A little bit of my pride",
-  "projectsAccessLink": "Access"
+  "projectsAccessLink": "Access",
+  "projectsButtonOpen": "Open",
+  "projectsButtonClose": "Close"
 }

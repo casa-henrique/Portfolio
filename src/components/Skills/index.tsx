@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import LanguageContext from "../../hooks/languageContext";
 import ability from "../../utils/skills.json";
-import { Container, Table } from "./styles";
+import { SkillsContainer, SkillsTable } from "./styles";
 
 interface Itens {
   name: string;
@@ -22,12 +22,12 @@ export function Skills() {
   }, []);
 
   return (
-    <Container>
+    <SkillsContainer>
       <h2>
         {language.skillsTitle}
         <span>{language.skillsTitleSpan}</span>
       </h2>
-      <Table>
+      <SkillsTable>
         {skills.map((skills) => (
           <table key={skills.title} className="skillsTable">
             <tr>
@@ -43,7 +43,7 @@ export function Skills() {
             </tr>
           </table>
         ))}
-      </Table>
-    </Container>
+      </SkillsTable>
+    </SkillsContainer>
   );
 }

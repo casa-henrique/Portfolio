@@ -54,7 +54,8 @@
         "name": "ExpressJS",
         "img": "/skills/ExpressJS.png"
       },
-      { "name": "NestJS", "img": "/skills/NestJS.png" }
+      { "name": "NestJS", "img": "/skills/NestJS.png" },
+      { "name": "React Native", "img": "/skills/React.png" }
     ]
   },
 

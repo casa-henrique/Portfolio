@@ -11,6 +11,7 @@ interface RepositoryProps {
 }
 
 export function Projects() {
+  const [showProjects, setShowProjects] = useState(false);
   const { language } = useContext<any>(LanguageContext);
   const [repositories, setRepositories] = useState<RepositoryProps[]>([]);
 
@@ -37,7 +38,7 @@ export function Projects() {
         <span>{language.projectsTitleSpan}</span>
       </h2>
 
-      <ul>
+      <ul className={showProjects ? "" : "hidden"}>
         {repositories.map((repository) => (
           <li>
             <strong>{repository.name}</strong>
@@ -50,6 +51,12 @@ export function Projects() {
             </div>
           </li>
         ))}
+        <div className={showProjects ? "" : "buttonWrapper"} />
+        <button onClick={() => setShowProjects(!showProjects)}>
+          {showProjects
+            ? language.projectsButtonClose
+            : language.projectsButtonOpen}
+        </button>
       </ul>
     </Container>
   );

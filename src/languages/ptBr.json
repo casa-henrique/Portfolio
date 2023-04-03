@@ -31,5 +31,7 @@
   "skillsTitleSpan": "Veja as habilidades que desenvolvi",
   "projectsTitle": "Projetos",
   "projectsTitleSpan": "Um pouco do meu orgulho",
-  "projectsAccessLink": "Acessar"
+  "projectsAccessLink": "Acessar",
+  "projectsButtonOpen": "Abrir",
+  "projectsButtonClose": "Fechar"
 }

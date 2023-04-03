@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const SkillsContainer = styled.section`
   display: flex;
   flex-direction: column;
 
@@ -28,18 +28,24 @@ export const Container = styled.section`
   }
 `;
 
-export const Table = styled.div`
-  display: grid;
+export const SkillsTable = styled.div`
+  display: flex;
 
-  width: 90%;
+  width: 85%;
 
-  column-gap: 3rem;
-  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+
+  width: 80vw;
+  margin: 0 auto;
+  overflow: hidden;
 
   .skillsTable {
     display: flex;
     flex-direction: column;
-
+    animation: animate 15s alternate ease-in-out infinite;
+    :first-child {
+      margin-left: 3rem;
+    }
     padding: 1rem;
     gap: 1.5rem;
 
@@ -62,11 +68,13 @@ export const Table = styled.div`
         display: flex;
         flex-direction: column;
 
+        width: 4rem;
+
         align-items: center;
         text-align: center;
         color: var(--gray);
         font-family: "Roboto";
-        font-size: 0.8rem;
+        font-size: 0.9rem;
 
         gap: 1rem;
 
@@ -85,10 +93,44 @@ export const Table = styled.div`
     }
   }
 
+  :hover .skillsTable {
+    animation-play-state: paused;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-980px, 0, 0);
+    }
+  }
+
   @media (max-width: 1080px) {
-    grid-template-columns: repeat(2, 1fr);
+    width: 70vw;
+    border-radius: 0;
+    padding: 0;
   }
   @media (max-width: 720px) {
-    grid-template-columns: repeat(1, 1fr);
+    width: 90vw;
+    border-radius: 0;
+    padding: 0;
+
+    .skillsTable {
+      animation: animate 25s alternate ease-in-out infinite;
+
+      :first-child {
+        margin-left: 1rem;
+      }
+    }
+
+    @keyframes animate {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-1550px, 0, 0);
+      }
+    }
   }
 `;
