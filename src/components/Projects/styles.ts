@@ -38,10 +38,8 @@ export const Container = styled.section`
     left: 2rem;
     height: 4rem;
 
-    background-color: rgba(0, 0, 0, 0.65);
-    filter: blur(15px);
-    border-radius: 2rem;
-
+    background-color: rgba(0, 0, 0, 0.9);
+    filter: blur(20px);
     z-index: 2;
   }
   .hidden {
@@ -59,15 +57,31 @@ export const Container = styled.section`
     gap: 2rem;
 
     > button {
+      display: flex;
       position: absolute;
       bottom: 1rem;
       left: 45%;
-      height: 2rem;
+
+      align-items: center;
+      justify-content: center;
+
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+
+      font-family: "roboto";
+
       background-color: var(--blue-400);
-      opacity: 1;
       color: var(--white);
-      padding: 0.5rem 2rem;
+      opacity: 1;
+
+      border-radius: 1rem;
+
       z-index: 3;
+
+      > svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
     }
 
     li {
@@ -154,8 +168,8 @@ export const Container = styled.section`
       }
     }
     .buttonWrapper {
-      width: 90%;
-      left: 1rem;
+      width: 80%;
+      left: 2rem;
     }
   }
 `;

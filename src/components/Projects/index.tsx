@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import LanguageContext from "../../hooks/languageContext";
 import { Container } from "./styles";
 
@@ -53,9 +54,17 @@ export function Projects() {
         ))}
         <div className={showProjects ? "" : "buttonWrapper"} />
         <button onClick={() => setShowProjects(!showProjects)}>
-          {showProjects
-            ? language.projectsButtonClose
-            : language.projectsButtonOpen}
+          {showProjects ? (
+            <>
+              {language.projectsButtonClose}
+              <IoIosArrowUp />
+            </>
+          ) : (
+            <>
+              {language.projectsButtonOpen}
+              <IoIosArrowDown />
+            </>
+          )}
         </button>
       </ul>
     </Container>
