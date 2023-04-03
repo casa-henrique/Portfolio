@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import SideBackground from "../../assets/images/sideBackground.jpg";
+import MobileBackground from "../../assets/images/MobileBackground.png";
+import SideBackground from "../../assets/images/SideBarBackground.png";
 
 export const Container = styled.aside`
   display: flex;
@@ -103,6 +104,7 @@ export const Container = styled.aside`
     position: relative;
     width: 100vw;
     height: calc(90vh - 5px);
+    background-image: url(${MobileBackground});
 
     background-size: cover;
 
