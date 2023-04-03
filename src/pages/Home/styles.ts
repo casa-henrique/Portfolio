@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backMobile from "../../assets/images/backgroundMobile.png";
 
 export const Container = styled.div`
   display: flex;
@@ -22,5 +23,10 @@ export const Container = styled.div`
     border-top: 5px solid var(--blue-400);
     border-left: none;
     width: 100vw;
+    background-image: url(${backMobile});
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 `;
