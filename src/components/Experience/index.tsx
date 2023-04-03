@@ -76,6 +76,7 @@ export function Experience() {
           enableBreakPoint
           verticalBreakPoint={400}
           hideControls
+          useReadMore={false}
           classNames={{
             card: "my-card",
             cardMedia: "my-card-media",
