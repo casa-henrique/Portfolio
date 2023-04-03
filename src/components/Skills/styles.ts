@@ -99,10 +99,10 @@ export const SkillsTable = styled.div`
 
   @keyframes animate {
     0% {
-      transform: translate3d(0, 0, 0);
+      transform: translate3d(-980px, 0, 0);
     }
     100% {
-      transform: translate3d(-980px, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
   }
 
@@ -126,10 +126,10 @@ export const SkillsTable = styled.div`
 
     @keyframes animate {
       0% {
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(-1550px, 0, 0);
       }
       100% {
-        transform: translate3d(-1550px, 0, 0);
+        transform: translate3d(0, 0, 0);
       }
     }
   }
