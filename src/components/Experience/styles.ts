@@ -1,13 +1,30 @@
 import styled from "styled-components";
+import bcgImg from "../../assets/images/backgroundExperience3.jpg";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  background-color: #29304f;
+  position: relative;
 
-  margin-top: 4rem;
+  padding: 8rem 0;
   gap: 2rem;
 
   height: auto;
+  width: 100%;
+
+  :before {
+    content: " ";
+    background-image: url(${bcgImg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+  }
 
   > h2 {
     display: flex;
@@ -19,6 +36,7 @@ export const Container = styled.div`
     font-family: "Inter";
     color: var(--white);
     font-weight: bold;
+    z-index: 2;
 
     > span {
       font-size: 1rem;

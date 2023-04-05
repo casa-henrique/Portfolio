@@ -5,6 +5,9 @@ export const Container = styled.main`
   flex-direction: column;
 
   width: 90%;
+  height: 100vh;
+
+  justify-content: center;
 
   gap: 2rem;
 
@@ -35,47 +38,17 @@ export const Container = styled.main`
 
     align-items: center;
     justify-content: center;
+    position: relative;
 
     gap: 3.5rem;
-
+    perspective: 1500px;
     width: 100%;
-
-    > div {
-      display: flex;
-      flex-direction: column;
-
-      align-items: center;
-      justify-content: center;
-
-      gap: 2rem;
-
-      height: 16rem;
-      width: 20%;
-
-      margin-top: 1rem;
-
-      background-color: var(--blue-900);
-
-      border-radius: 20px;
-
-      border: 1px solid #657be0;
-      box-shadow: 0px 3px 16px rgba(101, 123, 224, 0.9);
-
-      > img {
-        width: 8rem;
-      }
-      > p {
-        color: var(--white);
-        font-family: "Inter";
-        font-weight: bold;
-        text-align: center;
-        width: 70%;
-      }
-    }
   }
 
   @media (max-width: 480px) {
     align-items: center;
+    height: auto;
+    padding: 4rem 0;
     > h2 {
       text-align: center;
     }

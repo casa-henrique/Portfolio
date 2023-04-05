@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import FotoPerfil from "../../assets/images/fotoPerfil.jpg";
@@ -27,8 +27,8 @@ export function Sidebar() {
         <div>
           <p>{language.sideBarNetwork}</p>
           <div className="netWrapper">
-            <a href="https://www.instagram.com/casa.henrique/" target="_blank">
-              <BsInstagram />
+            <a href="https://wa.me/5551995779145" target="_blank">
+              <BsWhatsapp />
             </a>
             <a
               href="https://www.linkedin.com/in/henrique-casa/"

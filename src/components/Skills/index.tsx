@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from "react";
+import { useScrollContainer } from "react-indiana-drag-scroll";
 import LanguageContext from "../../hooks/languageContext";
 import ability from "../../utils/skills.json";
 import { SkillsContainer, SkillsTable } from "./styles";
@@ -16,6 +17,7 @@ interface AbilityProps {
 export function Skills() {
   const [skills, setSkills] = useState<AbilityProps[]>([]);
   const { language } = useContext<any>(LanguageContext);
+  const scrollContainer = useScrollContainer();
 
   useEffect(() => {
     setSkills(ability);
@@ -23,11 +25,8 @@ export function Skills() {
 
   return (
     <SkillsContainer>
-      <h2>
-        {language.skillsTitle}
-        <span>{language.skillsTitleSpan}</span>
-      </h2>
-      <SkillsTable>
+      <h2>{language.skillsTitle}</h2>
+      <SkillsTable ref={scrollContainer.ref}>
         {skills.map((skills) => (
           <table key={skills.title} className="skillsTable">
             <tr>

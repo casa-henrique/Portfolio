@@ -3,7 +3,10 @@ import mobile from "../../assets/images/app-development.png";
 import backend from "../../assets/images/backend-development.png";
 import web from "../../assets/images/web-development.png";
 import LanguageContext from "../../hooks/languageContext";
+import { Card } from "../Card";
 import { Container } from "./styles";
+
+// @ts-ignore
 
 export function Introduction() {
   const { language } = useContext<any>(LanguageContext);
@@ -16,18 +19,9 @@ export function Introduction() {
       </h2>
       <p>{language.introductionObjectiveText}</p>
       <div>
-        <div>
-          <img src={web} alt="" />
-          <p>{language.introductionWebImg}</p>
-        </div>
-        <div>
-          <img src={backend} alt="" />
-          <p>{language.introductionBackImg}</p>
-        </div>
-        <div>
-          <img src={mobile} alt="" />
-          <p>{language.introductionMobImg}</p>
-        </div>
+        <Card img={web} title={language.introductionWebImg} />
+        <Card img={backend} title={language.introductionBackImg} />
+        <Card img={mobile} title={language.introductionMobImg} />
       </div>
     </Container>
   );

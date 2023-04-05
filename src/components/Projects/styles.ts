@@ -5,8 +5,12 @@ export const Container = styled.section`
   flex-direction: column;
 
   align-items: center;
-  margin-top: 4rem;
   gap: 1rem;
+
+  background-color: var(--blue-700);
+  min-height: 100vh;
+
+  justify-content: center;
 
   > h2 {
     display: flex;
