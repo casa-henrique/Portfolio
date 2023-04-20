@@ -6,8 +6,6 @@ import LanguageContext from "../../hooks/languageContext";
 import { Card } from "../Card";
 import { Container } from "./styles";
 
-// @ts-ignore
-
 export function Introduction() {
   const { language } = useContext<any>(LanguageContext);
 
